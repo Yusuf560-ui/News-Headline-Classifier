@@ -52,10 +52,10 @@ The dataset contains **3 columns** with **5,739 records**. Columns include:
 ## How to run Locally
 - Clone repository : 
  ``` bash 
-    []()
+    [https://github.com/Yusuf560-ui/News-Headline-Classifier](https://github.com/Yusuf560-ui/News-Headline-Classifier)
 ```
 - Create and activate virtual environment: 
-``bash
+```bash
 python -m venv .venv
 ```bash
 .venv\Scripts\activate   # On Windows
