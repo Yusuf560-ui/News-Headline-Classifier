@@ -16,7 +16,7 @@ The dataset contains **3 columns** with **5,739 records**. Columns include:
 - headline : news headlines across 6 categories
 - category : the category each headline belong
 - link : news link for each headline
-
+The dataset is available on (kaggle)[https://www.kaggle.com/datasets/yusufsanni5/nairaland-news-headlines-dataset]
 ---
 
 **Class Distribution (slightly imbalanced):**
@@ -65,4 +65,5 @@ source .venv/bin/activate # On Mac/Linux
 - Install dependencies
 ```bash
 pip install -r requirement.txt
+
 ```
