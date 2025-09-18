@@ -78,4 +78,4 @@ source .venv/bin/activate # On Mac/Linux
 pip install -r requirement.txt
 ```
 
-- Open test.py and run the file in your terminal
+- Open **test.py** and run the file in your terminal
