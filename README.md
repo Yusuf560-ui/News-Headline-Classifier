@@ -51,8 +51,13 @@ Dataset is also available on [Kaggle](https://www.kaggle.com/datasets/yusufsanni
 
 ## Tech Stack
 - Python
-- Google Collab Jupiter Notebook
+- Numpy
+- Pandas
+- Matplotlib
+- Seaborn
 - Scikit-learn
+- Google Collab Jupiter Notebook
+
 
 
 ---
