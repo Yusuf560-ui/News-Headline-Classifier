@@ -2,7 +2,6 @@
 This is a supervised NLP classification project built based on a scraped dataset from nairaland. The goal of the project is to train a classifier to predict the category news headlines belong to whether it's politics, sports, education or business.
 
 --- 
-
 ## Project Overview
 Through web scraping, I was able to collect 5,739 headlines across several categories including Politics, Sports and Education. 
 The dataset contains 3 columns with 5,739 records. Columns include: 
@@ -10,19 +9,15 @@ The dataset contains 3 columns with 5,739 records. Columns include:
 - category : the category each headline belong
 - link : news link for each headline
 
-
 ---
-
 
 ## Features
 The dataset contains **3 columns** with **5,739 records**. Columns include: 
 - headline : news headlines across 6 categories
 - category : the category each headline belong
 - link : news link for each headline
-Dataset is also available on [Kaggle](https://www.kaggle.com/datasets/yusufsanni5/nairaland-news-headlines-dataset)
 
 ---
-
 
 **Class Distribution (slightly imbalanced):**
 - politics: 1218
@@ -32,9 +27,7 @@ Dataset is also available on [Kaggle](https://www.kaggle.com/datasets/yusufsanni
 - music-radio: 856
 - education: 704
 
-
 ---
-
 
 ## Data preprocessing and Modelling
 - Dropped the link column
@@ -48,31 +41,22 @@ Dataset is also available on [Kaggle](https://www.kaggle.com/datasets/yusufsanni
 
 ---
 
-
 ## Tech Stack
 - Python
-- Numpy
-- Pandas
-- Matplotlib
-- Seaborn
-- Scikit-learn
 - Google Collab Jupiter Notebook
-
+- Scikit-learn
 
 
 ---
 
-
 ## How to run Locally
 - Clone repository : 
  ``` bash 
-   git clone https://github.com/Yusuf560-ui/News-Headline-Classifier
+    []()
 ```
 - Create and activate virtual environment: 
-```bash
+``bash
 python -m venv .venv
-```
-
 ```bash
 .venv\Scripts\activate   # On Windows
 source .venv/bin/activate # On Mac/Linux
@@ -82,5 +66,3 @@ source .venv/bin/activate # On Mac/Linux
 ```bash
 pip install -r requirement.txt
 ```
-
-- Open **test.py** and run the file in your terminal
