@@ -16,7 +16,7 @@ The dataset contains **3 columns** with **5,739 records**. Columns include:
 - headline : news headlines across 6 categories
 - category : the category each headline belong
 - link : news link for each headline
-The dataset is available on (https://www.kaggle.com/datasets/yusufsanni5/nairaland-news-headlines-dataset)[Kaggle]
+The dataset is available on [Kaggle](https://www.kaggle.com/datasets/yusufsanni5/nairaland-news-headlines-dataset)
 ---
 
 **Class Distribution (slightly imbalanced):**
@@ -52,11 +52,13 @@ The dataset is available on (https://www.kaggle.com/datasets/yusufsanni5/nairala
 ## How to run Locally
 - Clone repository : 
  ``` bash 
-    []()
+    git clone https://github.com/Yusuf560-ui/News-Headline-Classifier
 ```
 - Create and activate virtual environment: 
-``bash
+```bash
 python -m venv .venv
+
+```
 ```bash
 .venv\Scripts\activate   # On Windows
 source .venv/bin/activate # On Mac/Linux
@@ -67,3 +69,4 @@ source .venv/bin/activate # On Mac/Linux
 pip install -r requirement.txt
 
 ```
+- Run the test.py in your terminal
