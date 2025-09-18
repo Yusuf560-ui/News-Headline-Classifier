@@ -2,6 +2,8 @@
 This is a supervised NLP classification project built based on a scraped dataset from nairaland. The goal of the project is to train a classifier to predict the category news headlines belong to whether it's politics, sports, education or business.
 
 --- 
+
+
 ## Project Overview
 Through web scraping, I was able to collect 5,739 headlines across several categories including Politics, Sports and Education. 
 The dataset contains 3 columns with 5,739 records. Columns include: 
@@ -9,7 +11,11 @@ The dataset contains 3 columns with 5,739 records. Columns include:
 - category : the category each headline belong
 - link : news link for each headline
 
+
+
 ---
+
+
 
 ## Features
 The dataset contains **3 columns** with **5,739 records**. Columns include: 
@@ -17,7 +23,11 @@ The dataset contains **3 columns** with **5,739 records**. Columns include:
 - category : the category each headline belong
 - link : news link for each headline
 
+
+
 ---
+
+
 
 **Class Distribution (slightly imbalanced):**
 - politics: 1218
@@ -27,7 +37,11 @@ The dataset contains **3 columns** with **5,739 records**. Columns include:
 - music-radio: 856
 - education: 704
 
+
+
 ---
+
+
 
 ## Data preprocessing and Modelling
 - Dropped the link column
@@ -41,6 +55,8 @@ The dataset contains **3 columns** with **5,739 records**. Columns include:
 
 ---
 
+
+
 ## Tech Stack
 - Python
 - Google Collab Jupiter Notebook
@@ -48,6 +64,7 @@ The dataset contains **3 columns** with **5,739 records**. Columns include:
 
 
 ---
+
 
 ## How to run Locally
 - Clone repository : 
