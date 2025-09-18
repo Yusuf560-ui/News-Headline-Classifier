@@ -55,6 +55,12 @@ The dataset contains **3 columns** with **5,739 records**. Columns include:
  ``` bash 
     git clone https://github.com/Yusuf560-ui/News-Headline-Classifier
 ```
+
+- Open folder
+ ``` bash
+cd News-Headline-Classifier-main
+```
+
 - Create and activate virtual environment: 
 ```bash
 python -m venv .venv
@@ -71,4 +77,5 @@ pip install -r requirement.txt
 
 ```
 - Run the test.py in your terminal
+
 
