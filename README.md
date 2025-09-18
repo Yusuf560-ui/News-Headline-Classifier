@@ -3,7 +3,6 @@ This is a supervised NLP classification project built based on a scraped dataset
 
 --- 
 
-
 ## Project Overview
 Through web scraping, I was able to collect 5,739 headlines across several categories including Politics, Sports and Education. 
 The dataset contains 3 columns with 5,739 records. Columns include: 
@@ -12,9 +11,7 @@ The dataset contains 3 columns with 5,739 records. Columns include:
 - link : news link for each headline
 
 
-
 ---
-
 
 
 ## Features
@@ -24,9 +21,7 @@ The dataset contains **3 columns** with **5,739 records**. Columns include:
 - link : news link for each headline
 
 
-
 ---
-
 
 
 **Class Distribution (slightly imbalanced):**
@@ -38,9 +33,7 @@ The dataset contains **3 columns** with **5,739 records**. Columns include:
 - education: 704
 
 
-
 ---
-
 
 
 ## Data preprocessing and Modelling
@@ -54,7 +47,6 @@ The dataset contains **3 columns** with **5,739 records**. Columns include:
 
 
 ---
-
 
 
 ## Tech Stack
