@@ -77,3 +77,5 @@ source .venv/bin/activate # On Mac/Linux
 ```bash
 pip install -r requirement.txt
 ```
+
+- Open test.py and run the file in your terminal
