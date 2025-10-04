@@ -79,6 +79,7 @@ pip install -r requirement.txt
 ```
 - Better still, you can open the notebook in Google collab
 
+---
 
-
-
+# Testing the model 
+I tested the model on news headlines across 5 categories and it performed very well. Check it out at the end of the notebook
