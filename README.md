@@ -34,8 +34,9 @@ The dataset contains **3 columns** with **5,739 records**. Columns include:
 ## Data preprocessing and Modelling
 - Dropped the link column
 - Removed missing and duplicate headlines
+- Cleaned and preprocessed headlines using the NLTK libary
 - Remove noisy headlines below the length of 7
-- Used CountVectorizer to for word freqency analysis
+- Used CountVectorizer for word freqency analysis / text analysis
 - Used TfidfVectorizer for feature extraction
 - Tested sevaral models such as Logistic regression, SVC, LinearSVC and Naive Bayes
 - Final model (Base Logistic Regression) gave an accuracy and F1 score of 0.80
@@ -83,3 +84,4 @@ pip install -r requirement.txt
 
 # Testing the model 
 I tested the model on news headlines across 5 categories and it performed very well. Check it out at the end of the notebook
+
