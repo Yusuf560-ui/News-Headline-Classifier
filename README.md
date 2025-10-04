@@ -38,7 +38,7 @@ The dataset contains **3 columns** with **5,739 records**. Columns include:
 - Used CountVectorizer to for word freqency analysis
 - Used TfidfVectorizer for feature extraction
 - Tested sevaral models such as Logistic regression, SVC, LinearSVC and Naive Bayes
-- Final model (Naive Bayes) gave an accuracy and F1 score of 0.80
+- Final model (Base Logistic Regression) gave an accuracy and F1 score of 0.80
 
 
 ---
@@ -78,5 +78,6 @@ pip install -r requirement.txt
 
 ```
 - Better still, you can open the notebook in Google collab
+
 
 
