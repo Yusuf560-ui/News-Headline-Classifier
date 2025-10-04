@@ -77,5 +77,6 @@ source .venv/bin/activate # On Mac/Linux
 pip install -r requirement.txt
 
 ```
-- Better still, you can open the notebook in a Google collab notebook
+- Better still, you can open the notebook in Google collab
+
 
