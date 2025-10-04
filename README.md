@@ -37,8 +37,8 @@ The dataset contains **3 columns** with **5,739 records**. Columns include:
 - Remove noisy headlines below the length of 7
 - Used CountVectorizer to for word freqency analysis
 - Used TfidfVectorizer for feature extraction
-- Tested sevaral models such as Logistic regression, KNN, SVC, LinearSVC, Naive Bayes,Tree-based models and boosting methods
-- Final model (Naive Bayes) gave an accuracy and F1 score of 0.75
+- Tested sevaral models such as Logistic regression, SVC, LinearSVC and Naive Bayes
+- Final model (Naive Bayes) gave an accuracy and F1 score of 0.80
 
 
 ---
@@ -77,7 +77,4 @@ source .venv/bin/activate # On Mac/Linux
 pip install -r requirement.txt
 
 ```
-- Run the test.py in your terminal
-
-
-
+- Better still, open the notebook in a jupiter notebook
