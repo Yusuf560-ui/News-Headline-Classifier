@@ -1,5 +1,5 @@
 # News Headline Classifier
-This is a supervised NLP classification project built based on a scraped dataset from nairaland. The goal of the project is to train a classifier to identify the category news headlines belong to, whether it's politics, sports, education or business.
+This is a supervised NLP classification project built on a scraped dataset from nairaland. The goal of the project is to train a classifier to identify the category news headlines belong to, whether it's politics, sports, education or business.
 
 --- 
 ## Project Overview
@@ -84,5 +84,6 @@ pip install -r requirement.txt
 
 # Testing the model 
 I tested the model on news headlines across 5 categories and it performed very well. Check it out at the end of the notebook
+
 
 
