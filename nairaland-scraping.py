@@ -57,7 +57,7 @@ def get_data(soup, category):
     return page_data
 
 
-with open("nairaland-news-headlines.csv", "w", newline="", encoding="utf-8") as file:
+with open("nairaland-news-headlines-dataset.csv", "w", newline="", encoding="utf-8") as file:
     writer = csv.DictWriter(file, fieldnames=["headline", "link", "category"])
     writer.writeheader()
 
@@ -67,4 +67,5 @@ with open("nairaland-news-headlines.csv", "w", newline="", encoding="utf-8") as 
             if soup:
                 page_data = get_data(soup, category)
                 writer.writerows(page_data)
+
 
