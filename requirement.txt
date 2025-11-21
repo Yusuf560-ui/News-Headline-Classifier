@@ -1,5 +1,7 @@
+fake-useragent==2.2.0
 joblib==1.5.2
 numpy==2.3.3
 scikit-learn==1.6.1
 scipy==1.16.2
 threadpoolctl==3.6.0
+
